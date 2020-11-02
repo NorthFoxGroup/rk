@@ -1004,7 +1004,8 @@ section {
 }
 
 .team .member .member-info {
-    padding: 25px 15px;
+    padding: 0.8rem 0.5rem;
+    text-align: center;
 }
 
 .team .member .member-info h4 {
@@ -1354,6 +1355,7 @@ section {
 
 #footer .footer-top .footer-info h3 span {
     color: #f57d00;
+    font-size: 1.5rem;
 }
 
 #footer .footer-top .footer-info p {
@@ -1367,7 +1369,7 @@ section {
 #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #292929;
+    /* background: #292929; */
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -1377,13 +1379,35 @@ section {
     width: 36px;
     height: 36px;
     transition: 0.3s;
-    margin-right: 1rem;
+    margin-right: 0.2rem;
 }
 
-#footer .footer-top .social-links a:hover {
+/* #footer .footer-top .social-links a:hover {
     background: #f57d00;
     color: #151515;
     text-decoration: none;
+} */
+
+#footer .footer-top .social-links .facebook:hover {
+    color: #fff;
+    background-color: #3b5999;
+}
+
+#footer .footer-top .social-links .youtube:hover {
+    color: #fff;
+    background-color: #cd201f;
+}
+#footer .footer-top .social-links .envelope:hover {
+    color: #fff;
+    background-color: #eb4924;
+}
+#footer .footer-top .social-links .whatsapp:hover {
+    color: #fff;
+    background-color: #25D366;
+}
+#footer .footer-top .social-links .instagram:hover {
+    color: #fff;
+    background-color: #e1306c;
 }
 
 #footer .footer-top h4 {
